@@ -6,10 +6,7 @@
     <defs></defs>
     <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
         <g id="tick" fill="#000000">
-            <g id="Group" transform="translate(1.000000, 11.000000)">
-                <polygon id="Combined-Shape" points="20 63.6396103 34.3053527 77.944963 97.944963 14.3053527 83.6396103 7.10542736e-15"></polygon>
-                <polygon id="Combined-Shape" transform="translate(23.972482, 53.972482) rotate(-90.000000) translate(-23.972482, -53.972482) " points="0 63.6396103 14.3053527 77.944963 47.944963 44.3053527 33.6396103 30"></polygon>
-            </g>
+            <polygon id="Combined-Shape" points="1 54.6396103 35.3053527 88.944963 98.944963 25.3053527 84.6396103 11 34.956543 60.8210449 14.956543 40.8210449"></polygon>
         </g>
     </g>
 </svg>

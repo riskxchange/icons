@@ -15,4 +15,4 @@ https://github.com/riskxchange/icons/releases
 
 ## Examples
 
-To see a working demo of these icons, see the [https://riskxchange.github.io/styleguide/#icons](RiskXchange styleguide)
+To see a working demo of these icons, see the [RiskXchange styleguide](https://riskxchange.github.io/styleguide/#icons)

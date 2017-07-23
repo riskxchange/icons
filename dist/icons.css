@@ -1,0 +1,59 @@
+@font-face {
+    font-family: "RiskXchangeIcons";
+    src: url("./RiskXchangeIcons.eot?87f29727129b519da577bbc1f98ee62c?#iefix") format("embedded-opentype"),
+url("./RiskXchangeIcons.woff2?87f29727129b519da577bbc1f98ee62c") format("woff2"),
+url("./RiskXchangeIcons.woff?87f29727129b519da577bbc1f98ee62c") format("woff"),
+url("./RiskXchangeIcons.ttf?87f29727129b519da577bbc1f98ee62c") format("truetype"),
+url("./RiskXchangeIcons.svg?87f29727129b519da577bbc1f98ee62c#RiskXchangeIcons") format("svg");
+}
+
+.rx-icon {
+    line-height: 1;
+}
+
+.rx-icon:before {
+    font-family: RiskXchangeIcons !important;
+    font-style: normal;
+    font-weight: normal !important;
+    vertical-align: top;
+}
+
+.rx-icon--cross:before {
+    content: "\f101";
+}
+.rx-icon--dashboard:before {
+    content: "\f102";
+}
+.rx-icon--document-tick:before {
+    content: "\f103";
+}
+.rx-icon--dropdown:before {
+    content: "\f104";
+}
+.rx-icon--flask:before {
+    content: "\f105";
+}
+.rx-icon--heart-pulse:before {
+    content: "\f106";
+}
+.rx-icon--logo-inner:before {
+    content: "\f107";
+}
+.rx-icon--logo-letter:before {
+    content: "\f108";
+}
+.rx-icon--logo-outer:before {
+    content: "\f109";
+}
+.rx-icon--menu-toggle:before {
+    content: "\f10a";
+}
+.rx-icon--presentation:before {
+    content: "\f10b";
+}
+.rx-icon--search:before {
+    content: "\f10c";
+}
+.rx-icon--settings:before {
+    content: "\f10d";
+}

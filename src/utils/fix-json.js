@@ -1,6 +1,6 @@
 const fs = require('fs')
 const path = require('path')
-const filePath = path.resolve(__dirname, '../dist/icons.json')
+const filePath = path.resolve(__dirname, '../../dist/icons.json')
 
 fs.readFile(filePath, 'utf-8', (err, data) => {
   if (err) throw err

@@ -1,0 +1,15 @@
+{
+  "cross": "\\f101",
+  "dashboard": "\\f102",
+  "document-tick": "\\f103",
+  "dropdown": "\\f104",
+  "flask": "\\f105",
+  "heart-pulse": "\\f106",
+  "logo-inner": "\\f107",
+  "logo-letter": "\\f108",
+  "logo-outer": "\\f109",
+  "menu-toggle": "\\f10a",
+  "presentation": "\\f10b",
+  "search": "\\f10c",
+  "settings": "\\f10d"
+}

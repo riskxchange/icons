@@ -12,3 +12,7 @@ Where `__VERSION__` is the tag of version you want to use.
 
 For available releases, please click here:
 https://github.com/riskxchange/icons/releases
+
+## Examples
+
+To see a working demo of these icons, see the [https://riskxchange.github.io/styleguide/#icons](RiskXchange styleguide)

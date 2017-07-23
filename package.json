@@ -1,12 +1,12 @@
 {
   "name": "rx-icons",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "",
   "main": "index.js",
   "scripts": {
     "build": "rm -rf dist/ && mkdir -p dist/ && npm run icons",
     "icons": "npm-run-all icons:compile icons:rename && npm-run-all -p icons:minify icons:fix-json",
-    "icons:compile": "icon-font-generator src/icons/*.svg -o dist/ -p \"rx-icon-\" -n \"RiskXchangeIcons\" -t \".rx-icon\" --html false",
+    "icons:compile": "icon-font-generator src/icons/*.svg -o dist/ -p \"rx-icon-\" -n \"RiskXchangeIcons\" -t \".rx-icon\" --html false --csstp src/hbs/css.hbs",
     "icons:rename": "mv dist/RiskXchangeIcons.css dist/main.css && mv dist/RiskXchangeIcons.json dist/icons.json",
     "icons:minify": "cleancss -o dist/main.min.css dist/main.css",
     "icons:fix-json": "node ./src/utils/fix-json.js"

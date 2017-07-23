@@ -1,14 +1,10 @@
 @font-face {
     font-family: "RiskXchangeIcons";
-    src: url("./RiskXchangeIcons.eot?c4ae42e952c3f75c771ebde8f23eb287?#iefix") format("embedded-opentype"),
-url("./RiskXchangeIcons.woff2?c4ae42e952c3f75c771ebde8f23eb287") format("woff2"),
-url("./RiskXchangeIcons.woff?c4ae42e952c3f75c771ebde8f23eb287") format("woff"),
-url("./RiskXchangeIcons.ttf?c4ae42e952c3f75c771ebde8f23eb287") format("truetype"),
-url("./RiskXchangeIcons.svg?c4ae42e952c3f75c771ebde8f23eb287#RiskXchangeIcons") format("svg");
-}
-
-.rx-icon {
-    line-height: 1;
+    src: url("./RiskXchangeIcons.eot?628b4292e8f1aaa3fae08af2d74546df?#iefix") format("embedded-opentype"),
+url("./RiskXchangeIcons.woff2?628b4292e8f1aaa3fae08af2d74546df") format("woff2"),
+url("./RiskXchangeIcons.woff?628b4292e8f1aaa3fae08af2d74546df") format("woff"),
+url("./RiskXchangeIcons.ttf?628b4292e8f1aaa3fae08af2d74546df") format("truetype"),
+url("./RiskXchangeIcons.svg?628b4292e8f1aaa3fae08af2d74546df#RiskXchangeIcons") format("svg");
 }
 
 .rx-icon:before {

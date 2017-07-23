@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>RiskXchange</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <script src="/dist/index.js"></script>
+    <link rel="stylesheet" href="/dist/icons.css" />
+    <link rel="stylesheet" href="/dist/index.css" />
+    <link rel="stylesheet" href="./demo.css" />
+  </head>
+  <body class="rx-body--has-subnav">
+    <header class="rx-navbar">
+      <div class="rx-container rx-utils--no-pad">
+        <div class="rx-navbar__logo">
+          <a class="rx-logo" href="#"></a>
+        </div>
+        <button class="rx-navbar__menu-toggle">
+          <span class="rx-icon rx-icon--menu-toggle"></span>
+        </button>
+        <div class="rx-navbar__menu">
+          <div class="rx-navbar__links"></div>
+        </div>
+      </div>
+    </header>
+    <nav class="rx-subnav">
+      <div class="rx-container rx-utils--no-pad">
+        <div class="rx-subnav__links"></div>
+      </div>
+    </nav>
+    <!-- layouts -->
+    <div class="rx-container" rx-page="layout">
+      <h1>Layout</h1>
+      <!-- grid -->
+      <div class="rx-utils--vertical-space" rx-section="grids">
+        <h2>Grid</h2>
+        <div class="rx-row">
+          <div class="rx-col--md-6">
+            <div class="rx-card">
+              md-6
+            </div>
+          </div>
+          <div class="rx-col--md-6">
+            <div class="rx-card">
+              md-6
+            </div>
+          </div>
+        </div>
+        <div class="rx-row rx-row--pad">
+          <div class="rx-col--sm-3">
+            <div class="rx-card">
+              sm-3
+            </div>
+          </div>
+          <div class="rx-col--sm-4">
+            <div class="rx-card">
+              sm-4
+            </div>
+          </div>
+          <div class="rx-col--sm-5">
+            <div class="rx-card">
+              sm-5
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- container -->
+      <div class="rx-utils--vertical-space" rx-section="containers">
+        <h2>Containers</h2>
+        <div class="rx-container">
+          <p>Use containers to align content correctly in the middle of the page.</p>
+        </div>
+      </div>
+      <div class="rx-utils--vertical-space" rx-section="table">
+        <h2>Table</h2>
+        <div class="rx-card">
+          <table class="rx-table">
+            <thead>
+              <tr>
+                <th>Fruit</th>
+                <th>Price</th>
+                <th>Color</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Apple</td>
+                <td>30p</td>
+                <td>green</td>
+              </tr>
+              <tr>
+                <td>Banana</td>
+                <td>25p</td>
+                <td>yellow</td>
+              </tr>
+              <tr>
+                <td>Carrot</td>
+                <td>18p</td>
+                <td>orange</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+      <!-- container -->
+      <div class="rx-utils--vertical-space" rx-section="colors">
+        <h2>Colors</h2>
+        <p>Below are the primary colours used in the RiskXchange pallette:</p>
+        <div class="rx-row rx-row--pad">
+          <div class="rx-col--sm-3">
+            <div class="rx-blue-bg rx-card">rx-blue</div>
+          </div>
+          <div class="rx-col--sm-3">
+            <div class="rx-green-bg rx-card">rx-green</div>
+          </div>
+          <div class="rx-col--sm-3">
+            <div class="rx-yellow-bg rx-card">rx-yellow</div>
+          </div>
+          <div class="rx-col--sm-3">
+            <div class="rx-orange-bg rx-card">rx-orange</div>
+          </div>
+        </div>
+        <div class="rx-row rx-row--pad">
+          <div class="rx-col--sm-3">
+            <div class="rx-red-bg rx-card">rx-red</div>
+          </div>
+          <div class="rx-col--sm-3">
+            <div class="rx-dark-blue-bg rx-card">rx-dark-blue</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="rx-container" rx-page="navigation">
+      <h1>Navigation</h1>
+      <!-- navbar -->
+      <div class="rx-utils--vertical-space" rx-section="navbar">
+        <h2>Navbar</h2>
+        <header class="rx-navbar">
+          <div class="rx-container rx-utils--no-pad">
+            <div class="rx-navbar__logo">
+              <a class="rx-logo" href="#"></a>
+            </div>
+            <button class="rx-navbar__menu-toggle">
+              <span class="rx-icon rx-icon--menu-toggle"></span>
+            </button>
+            <div class="rx-navbar__menu">
+              <div class="rx-navbar__links">
+                <a class="rx-navbar__link rx-navbar__link--active" href="#">Apple</a>
+                <a class="rx-navbar__link" href="#">Banana</a>
+                <a class="rx-navbar__link" href="#">Carrot</a>
+              </div>
+            </div>
+          </div>
+        </header>
+      </div>
+      <!-- subnav -->
+      <div class="rx-utils--vertical-space" rx-section="subnav">
+        <h2>Subnav</h2>
+        <demo>
+        <nav class="rx-subnav">
+          <div class="rx-container rx-utils--no-pad">
+            <div class="rx-subnav__links">
+              <a class="rx-subnav__link rx-subnav__link--active" href="#">Apple</a>
+              <a class="rx-subnav__link" href="#">Banana</a>
+              <a class="rx-subnav__link" href="#">Carrot</a>
+            </div>
+          </div>
+        </nav>
+      </div>
+      <!-- sidebar -->
+      <div class="rx-utils--vertical-space" rx-section="sidebar">
+        <h2>Sidebar</h2>
+        <div class="rx-sidebar">
+          <div class="rx-sidebar__group">
+            <div class="rx-sidebar__title">Fruits</div>
+            <div class="rx-sidebar__links">
+              <a class="rx-sidebar__link" href="#">Apple</a>
+              <a class="rx-sidebar__link" href="#">Banana</a>
+              <a class="rx-sidebar__link" href="#">Carrot</a>
+            </div>
+          </div>
+          <div class="rx-sidebar__group">
+            <div class="rx-sidebar__title">Colors</div>
+            <div class="rx-sidebar__links">
+              <a class="rx-sidebar__link" href="#">yellow</a>
+              <a class="rx-sidebar__link" href="#">blue</a>
+              <a class="rx-sidebar__link" href="#">green</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="rx-container" rx-page="forms">
+      <h1>Forms</h1>
+      <!-- inputs -->
+      <div class="rx-utils--vertical-space" rx-section="inputs">
+        <h2>Inputs</h2>
+        <form>
+          <div class="rx-field">
+            <label class="rx-label rx-label--blocked">Default</label>
+            <input class="rx-input rx-input" type="email" placeholder="e.g. me@you.com" />
+          </div>
+          <div class="rx-field">
+            <label class="rx-label rx-label--blocked">Error</label>
+            <input class="rx-input rx-input rx-input--error" placeholder="error" />
+          </div>
+          <div class="rx-field">
+            <label class="rx-label rx-label--blocked">Success</label>
+            <input class="rx-input rx-input rx-input--success" placeholder="success" />
+          </div>
+          <div class="rx-field">
+            <label class="rx-label rx-label--blocked">Disabled</label>
+            <input class="rx-input rx-input" disabled placeholder="disabled" />
+          </div>
+          <div class="rx-row rx-row--pad">
+            <div class="rx-field rx-col--xs-6">
+              <label class="rx-label">First name</label>
+              <input class="rx-input rx-input--blocked" placeholder="John" />
+            </div>
+            <div class="rx-field rx-col--xs-6">
+              <label class="rx-label">Last name</label>
+              <input class="rx-input rx-input--blocked" placeholder="Smith" />
+            </div>
+          </div>
+        </form>
+      </div>
+      <!-- input group -->
+      <div class="rx-utils--vertical-space" rx-section="input-groups">
+        <h2>Input groups</h2>
+        <div class="rx-input-group">
+          <div class="rx-input-group__icon">
+            <span class="rx-icon rx-icon--search"></span>
+          </div>
+          <input class="rx-input" />
+        </div>
+      </div>
+      <!-- select -->
+      <div class="rx-utils--vertical-space" rx-section="select">
+        <h2>Select</h2>
+        <div class="rx-field">
+          <select class="rx-select">
+            <option>Apple</option>
+            <option>Banana</option>
+            <option>Carrot</option>
+          </select>
+        </div>
+        <div class="rx-field">
+          <select class="rx-select rx-select--blocked">
+            <option>Apple</option>
+            <option>Banana</option>
+            <option>Carrot</option>
+          </select>
+        </div>
+        <div class="rx-field">
+          <select class="rx-select" disabled="disabled">
+            <option>Apple</option>
+          </select>
+        </div>
+      </div>
+      <!-- checkbox/radio -->
+      <div class="rx-utils--vertical-space" rx-section="checkbox">
+        <h2>Checkbox/Radios</h2>
+        <div class="rx-row rx-row--pad">
+          <div class="rx-field rx-col--xs-6">
+            <label class="rx-label">
+              <input class="rx-checkbox" type="checkbox" />
+              Apple
+            </label>
+            <label class="rx-label">
+              <input class="rx-checkbox" type="checkbox" />
+              Banana
+            </label>
+          </div>
+          <div class="rx-field rx-col--xs-6">
+            <label class="rx-label">
+              <input class="rx-checkbox" type="checkbox" />
+              Carrot
+            </label>
+            <label class="rx-label">
+              <input class="rx-checkbox" type="checkbox" />
+              Dragon Fruit
+            </label>
+          </div>
+        </div>
+        <div class="rx-row rx-row--pad">
+          <div class="rx-field rx-col--xs-6">
+            <label class="rx-label">
+              <input class="rx-radio" name="radio" type="radio" />
+              Apple
+            </label>
+            <label class="rx-label">
+              <input class="rx-radio" name="radio" type="radio" />
+              Banana
+            </label>
+          </div>
+          <div class="rx-field rx-col--xs-6">
+            <label class="rx-label">
+              <input class="rx-radio" name="radio" type="radio" />
+              Carrot
+            </label>
+            <label class="rx-label">
+              <input class="rx-radio" name="radio" type="radio" />
+              Dragon Fruit
+            </label>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- components -->
+    <div class="rx-container" rx-page="components">
+      <h1>Components</h1>
+      <!-- buttons -->
+      <div class="rx-utils--vertical-space" rx-section="buttons">
+        <h2>Buttons</h2>
+        <div class="rx-field">
+          <button class="rx-btn">Default</button>
+          <button class="rx-btn rx-btn--primary">Primary</button>
+          <a class="rx-btn rx-btn--danger">Danger</a>
+          <a class="rx-btn rx-btn--info">Info</a>
+          <a class="rx-btn rx-btn--info rx-btn--disabled">Disabled</a>
+        </div>
+        <div class="rx-field">
+          <button class="rx-btn rx-btn--blocked">Blocked</a>
+        </div>
+      </div>
+      <!-- cards -->
+      <div class="rx-utils--vertical-space" rx-section="cards">
+        <h2>Cards</h2>
+        <div class="rx-card rx-utils--vertical-space">
+          rx-card
+        </div>
+        <div class="rx-card rx-utils--vertical-space">
+          rx-card__footer
+          <div class="rx-card__footer">
+            (I am the footer)
+          </div>
+        </div>
+        <div class="rx-card rx-card--clickable rx-utils--vertical-space">
+          rx-card--clickable
+        </div>
+      </div>
+      <!-- search -->
+      <div class="rx-utils--vertical-space" rx-section="search">
+        <h2>Search</h2>
+        <div class="rx-search">
+          <input class="rx-search__input" />
+        </div>
+      </div>
+      <!-- modal -->
+      <div class="rx-utils--vertical-space" rx-section="modals">
+        <h2>Modal</h2>
+        <div class="rx-modal" modal="test">
+          <div class="rx-modal__container">
+            <div class="rx-modal__body">
+              <button class="rx-modal__close-btn" close-modal>
+                <span class="rx-icon rx-icon--cross"></span>
+              </button>
+              <h2 class="rx-modal__title">Modal title goes here</h2>
+            </div>
+            <div class="rx-modal__footer">
+              Footer goes here
+            </div>
+          </div>
+        </div>
+        <button class="rx-btn" modal="test">Open modal</button>
+      </div>
+      <!-- loader -->
+      <div class="rx-utils--vertical-space" rx-section="loader">
+        <h2>Loader</h2>
+        <div class="rx-loader">
+          <div class="rx-icon rx-icon--logo-outer"></div>
+          <div class="rx-icon rx-icon--logo-inner"></div>
+          <div class="rx-icon rx-icon--logo-letter"></div>
+        </div>
+        <div class="rx-loader rx-loader--swing">
+          <div class="rx-icon rx-icon--logo-outer"></div>
+          <div class="rx-icon rx-icon--logo-inner"></div>
+          <div class="rx-icon rx-icon--logo-letter"></div>
+        </div>
+      </div>
+    </div>
+    <!-- icons -->
+    <div class="rx-container" rx-page="icons">
+      <h1>Icons</h1>
+      <div class="rx-utils--vertical-space">
+      </div>
+    </div>
+    <!-- javascript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/js-beautify/1.6.14/beautify-html.js"></script>
+    <script src="./demo.js"></script>
+  </body>
+</html>

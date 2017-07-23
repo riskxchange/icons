@@ -5,7 +5,7 @@
 To use this package, include the following snippet in your HTML:
 
 ```html
-<link rel="stylesheet" href="https://cdn.rawgit.com/riskxchange/icons/__VERSION__/dist/icons.min.css" />
+<link rel="stylesheet" href="https://cdn.rawgit.com/riskxchange/icons/__VERSION__/dist/main.min.css" />
 ```
 
 Where `__VERSION__` is the tag of version you want to use.

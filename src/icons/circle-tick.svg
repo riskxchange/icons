@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="100px" height="100px" viewBox="0 0 100 100" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47 (45396) - http://www.bohemiancoding.com/sketch -->
+    <title>circle-tick</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="circle-tick" fill="#000000">
+            <path d="M50,95 C25.1471863,95 5,74.8528137 5,50 C5,25.1471863 25.1471863,5 50,5 C74.8528137,5 95,25.1471863 95,50 C95,74.8528137 74.8528137,95 50,95 Z M16.7,53.3030233 L41.9034061,78.5064294 L81.5,38.9098355 L70.9901645,28.4 L41.647143,57.8443906 L26.9535725,43.1508201 L16.7,53.3030233 Z" id="Combined-Shape"></path>
+        </g>
+    </g>
+</svg>

@@ -5,8 +5,8 @@
     <desc>Created with Sketch.</desc>
     <defs></defs>
     <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="chevron-down" stroke-width="12" stroke="#000000">
-            <polyline id="Path-2" points="30 40 50 60 70.0491032 40"></polyline>
+        <g id="chevron-down" fill="#000000">
+            <polygon id="Combined-Shape" points="50.395184 48.2027958 35.1923882 33 26 42.1923882 50.0416306 66.2340187 50.395184 65.8804653 50.7487373 66.2340187 74.7903679 42.1923882 65.5979797 33"></polygon>
         </g>
     </g>
 </svg>

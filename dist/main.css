@@ -1,10 +1,10 @@
 @font-face {
     font-family: "RiskXchangeIcons";
-    src: url("./RiskXchangeIcons.eot?4409965171fbedd45fddf833d5ca4dfc?#iefix") format("embedded-opentype"),
-url("./RiskXchangeIcons.woff2?4409965171fbedd45fddf833d5ca4dfc") format("woff2"),
-url("./RiskXchangeIcons.woff?4409965171fbedd45fddf833d5ca4dfc") format("woff"),
-url("./RiskXchangeIcons.ttf?4409965171fbedd45fddf833d5ca4dfc") format("truetype"),
-url("./RiskXchangeIcons.svg?4409965171fbedd45fddf833d5ca4dfc#RiskXchangeIcons") format("svg");
+    src: url("./RiskXchangeIcons.eot?ad5e21fed3c25bf52fa4059a72c93515?#iefix") format("embedded-opentype"),
+url("./RiskXchangeIcons.woff2?ad5e21fed3c25bf52fa4059a72c93515") format("woff2"),
+url("./RiskXchangeIcons.woff?ad5e21fed3c25bf52fa4059a72c93515") format("woff"),
+url("./RiskXchangeIcons.ttf?ad5e21fed3c25bf52fa4059a72c93515") format("truetype"),
+url("./RiskXchangeIcons.svg?ad5e21fed3c25bf52fa4059a72c93515#RiskXchangeIcons") format("svg");
 }
 
 .rx-icon:before {

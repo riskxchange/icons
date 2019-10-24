@@ -1,10 +1,10 @@
 @font-face {
     font-family: "RiskXchangeIcons";
-    src: url("./RiskXchangeIcons.eot?2731ee4e96bf0e20bc95154c061559e6?#iefix") format("embedded-opentype"),
-url("./RiskXchangeIcons.woff2?2731ee4e96bf0e20bc95154c061559e6") format("woff2"),
-url("./RiskXchangeIcons.woff?2731ee4e96bf0e20bc95154c061559e6") format("woff"),
-url("./RiskXchangeIcons.ttf?2731ee4e96bf0e20bc95154c061559e6") format("truetype"),
-url("./RiskXchangeIcons.svg?2731ee4e96bf0e20bc95154c061559e6#RiskXchangeIcons") format("svg");
+    src: url("./RiskXchangeIcons.eot?647a81f2b67ddb8fc588cfe9a09aac7c?#iefix") format("embedded-opentype"),
+url("./RiskXchangeIcons.woff2?647a81f2b67ddb8fc588cfe9a09aac7c") format("woff2"),
+url("./RiskXchangeIcons.woff?647a81f2b67ddb8fc588cfe9a09aac7c") format("woff"),
+url("./RiskXchangeIcons.ttf?647a81f2b67ddb8fc588cfe9a09aac7c") format("truetype"),
+url("./RiskXchangeIcons.svg?647a81f2b67ddb8fc588cfe9a09aac7c#RiskXchangeIcons") format("svg");
 }
 
 .rx-icon:before {
@@ -47,39 +47,48 @@ url("./RiskXchangeIcons.svg?2731ee4e96bf0e20bc95154c061559e6#RiskXchangeIcons") 
 .rx-icon--heart-pulse:before {
     content: "\f10b";
 }
-.rx-icon--info:before {
+.rx-icon--iconmonstr-email-1:before {
     content: "\f10c";
 }
-.rx-icon--location:before {
+.rx-icon--iconmonstr-note-19:before {
     content: "\f10d";
 }
-.rx-icon--logo-inner:before {
+.rx-icon--info:before {
     content: "\f10e";
 }
-.rx-icon--logo-letter:before {
+.rx-icon--location:before {
     content: "\f10f";
 }
-.rx-icon--logo-outer:before {
+.rx-icon--logo-inner:before {
     content: "\f110";
 }
-.rx-icon--menu-toggle:before {
+.rx-icon--logo-letter:before {
     content: "\f111";
 }
-.rx-icon--padlock:before {
+.rx-icon--logo-outer:before {
     content: "\f112";
 }
-.rx-icon--presentation:before {
+.rx-icon--menu-toggle:before {
     content: "\f113";
 }
-.rx-icon--search:before {
+.rx-icon--padlock:before {
     content: "\f114";
 }
-.rx-icon--settings:before {
+.rx-icon--phone:before {
     content: "\f115";
 }
-.rx-icon--tick:before {
+.rx-icon--presentation:before {
     content: "\f116";
 }
-.rx-icon--warning:before {
+.rx-icon--search:before {
     content: "\f117";
+}
+.rx-icon--settings:before {
+    content: "\f118";
+}
+.rx-icon--tick:before {
+    content: "\f119";
+}
+.rx-icon--warning:before {
+    content: "\f11a";
 }

@@ -1,10 +1,10 @@
 @font-face {
     font-family: "RiskXchangeIcons";
-    src: url("./RiskXchangeIcons.eot?8b5e8b110e4cf5fbcea9fea43383ad53?#iefix") format("embedded-opentype"),
-url("./RiskXchangeIcons.woff2?8b5e8b110e4cf5fbcea9fea43383ad53") format("woff2"),
-url("./RiskXchangeIcons.woff?8b5e8b110e4cf5fbcea9fea43383ad53") format("woff"),
-url("./RiskXchangeIcons.ttf?8b5e8b110e4cf5fbcea9fea43383ad53") format("truetype"),
-url("./RiskXchangeIcons.svg?8b5e8b110e4cf5fbcea9fea43383ad53#RiskXchangeIcons") format("svg");
+    src: url("./RiskXchangeIcons.eot?35ebe8e9914f3fca7607229dc53f92ce?#iefix") format("embedded-opentype"),
+url("./RiskXchangeIcons.woff2?35ebe8e9914f3fca7607229dc53f92ce") format("woff2"),
+url("./RiskXchangeIcons.woff?35ebe8e9914f3fca7607229dc53f92ce") format("woff"),
+url("./RiskXchangeIcons.ttf?35ebe8e9914f3fca7607229dc53f92ce") format("truetype"),
+url("./RiskXchangeIcons.svg?35ebe8e9914f3fca7607229dc53f92ce#RiskXchangeIcons") format("svg");
 }
 
 .rx-icon:before {
@@ -86,9 +86,12 @@ url("./RiskXchangeIcons.svg?8b5e8b110e4cf5fbcea9fea43383ad53#RiskXchangeIcons") 
 .rx-icon--settings:before {
     content: "\f118";
 }
-.rx-icon--tick:before {
+.rx-icon--star:before {
     content: "\f119";
 }
-.rx-icon--warning:before {
+.rx-icon--tick:before {
     content: "\f11a";
+}
+.rx-icon--warning:before {
+    content: "\f11b";
 }

@@ -20,11 +20,12 @@
   "menu-toggle": "\\f113",
   "note": "\\f114",
   "padlock": "\\f115",
-  "phone": "\\f116",
-  "presentation": "\\f117",
-  "search": "\\f118",
-  "settings": "\\f119",
-  "star": "\\f11a",
-  "tick": "\\f11b",
-  "warning": "\\f11c"
+  "paperclip": "\\f116",
+  "phone": "\\f117",
+  "presentation": "\\f118",
+  "search": "\\f119",
+  "settings": "\\f11a",
+  "star": "\\f11b",
+  "tick": "\\f11c",
+  "warning": "\\f11d"
 }

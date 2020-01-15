@@ -1,10 +1,10 @@
 @font-face {
     font-family: "RiskXchangeIcons";
-    src: url("./RiskXchangeIcons.eot?abb44f82b2218171e975e0a7a2f3929f?#iefix") format("embedded-opentype"),
-url("./RiskXchangeIcons.woff2?abb44f82b2218171e975e0a7a2f3929f") format("woff2"),
-url("./RiskXchangeIcons.woff?abb44f82b2218171e975e0a7a2f3929f") format("woff"),
-url("./RiskXchangeIcons.ttf?abb44f82b2218171e975e0a7a2f3929f") format("truetype"),
-url("./RiskXchangeIcons.svg?abb44f82b2218171e975e0a7a2f3929f#RiskXchangeIcons") format("svg");
+    src: url("./RiskXchangeIcons.eot?244737e6bb007a7dc82f9ae2733a871f?#iefix") format("embedded-opentype"),
+url("./RiskXchangeIcons.woff2?244737e6bb007a7dc82f9ae2733a871f") format("woff2"),
+url("./RiskXchangeIcons.woff?244737e6bb007a7dc82f9ae2733a871f") format("woff"),
+url("./RiskXchangeIcons.ttf?244737e6bb007a7dc82f9ae2733a871f") format("truetype"),
+url("./RiskXchangeIcons.svg?244737e6bb007a7dc82f9ae2733a871f#RiskXchangeIcons") format("svg");
 }
 
 i:before {
@@ -35,69 +35,78 @@ i:before {
 .icon-dashboard:before {
     content: "\f107";
 }
-.icon-document-tick:before {
+.icon-document-add:before {
     content: "\f108";
 }
-.icon-dropdown:before {
+.icon-document-attachment:before {
     content: "\f109";
 }
-.icon-edit:before {
+.icon-document-tick:before {
     content: "\f10a";
 }
-.icon-email:before {
+.icon-document:before {
     content: "\f10b";
 }
-.icon-flask:before {
+.icon-dropdown:before {
     content: "\f10c";
 }
-.icon-heart-pulse:before {
+.icon-edit:before {
     content: "\f10d";
 }
-.icon-info:before {
+.icon-email:before {
     content: "\f10e";
 }
-.icon-location:before {
+.icon-flask:before {
     content: "\f10f";
 }
-.icon-logo-inner:before {
+.icon-heart-pulse:before {
     content: "\f110";
 }
-.icon-logo-letter:before {
+.icon-info:before {
     content: "\f111";
 }
-.icon-logo-outer:before {
+.icon-location:before {
     content: "\f112";
 }
-.icon-menu-toggle:before {
+.icon-logo-inner:before {
     content: "\f113";
 }
-.icon-note:before {
+.icon-logo-letter:before {
     content: "\f114";
 }
-.icon-padlock:before {
+.icon-logo-outer:before {
     content: "\f115";
 }
-.icon-paperclip:before {
+.icon-menu-toggle:before {
     content: "\f116";
 }
-.icon-phone:before {
+.icon-note:before {
     content: "\f117";
 }
-.icon-presentation:before {
+.icon-padlock:before {
     content: "\f118";
 }
-.icon-search:before {
+.icon-paperclip:before {
     content: "\f119";
 }
-.icon-settings:before {
+.icon-phone:before {
     content: "\f11a";
 }
-.icon-star:before {
+.icon-presentation:before {
     content: "\f11b";
 }
-.icon-tick:before {
+.icon-search:before {
     content: "\f11c";
 }
-.icon-warning:before {
+.icon-settings:before {
     content: "\f11d";
+}
+.icon-star:before {
+    content: "\f11e";
+}
+.icon-tick:before {
+    content: "\f11f";
+}
+.icon-warning:before {
+    content: "\f120";
 }
